@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Color wheel</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="views_array">
+        <item>Triangle</item>
+        <item>Complementary</item>
+        <item>Alternative complementary</item>
+        <item>Contrast</item>
+        <item>Double contrast</item>
+        <item>Quaternion</item>
+        <item>Analog</item>
+    </string-array>
+</resources>

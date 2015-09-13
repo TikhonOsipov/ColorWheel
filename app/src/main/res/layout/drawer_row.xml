@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_row_frame"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <ImageView
+        android:id="@+id/drawer_row_icon"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/drawer_row_text"
+        android:layout_marginLeft="72dp"
+        android:textColor="#ff757575"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
